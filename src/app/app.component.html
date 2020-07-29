@@ -7,9 +7,9 @@
 
   <form>
 
-    <div fxLayout="row" fxLayout.lt-sm="column" fxGap="10" fxLayoutAlign="space-between center">
+    <div fxLayout="row" fxLayout.lt-sm="column" fxGap="10" fxGap.lt-sm="0" fxLayoutAlign="space-between center">
 
-      <mat-form-field appearance="outline">
+      <mat-form-field appearance="outline" fxFlex="30%">
         <mat-label>Type</mat-label>
         <select matNativeControl required>
           <option value="new">New Cars</option>
@@ -18,7 +18,7 @@
         </select>
       </mat-form-field>
 
-      <mat-form-field appearance="outline">
+      <mat-form-field appearance="outline" fxFlex="30%">
         <mat-label>Dealership</mat-label>
         <select matNativeControl required>
           <option value="all">All</option>
@@ -29,7 +29,7 @@
         </select>
       </mat-form-field>
 
-      <mat-form-field appearance="outline">
+      <mat-form-field appearance="outline" fxFlex="20%">
         <mat-label>Colour</mat-label>
         <select matNativeControl required>
           <option value="all">All</option>
@@ -39,8 +39,8 @@
           <option value="blue">Blue</option>
         </select>
       </mat-form-field>
-      <div>
-        <button mat-stroked-button color="primary">Search</button>
+      <div fxFlex="5%">
+        <button mat-flat-button color="primary">Search</button>
 
       </div>
     </div>

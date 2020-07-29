@@ -1,6 +1,6 @@
 #search {
   background-color: #f8f9fa;
-  padding: 20px 0px;
+  padding: 40px 80px;
 }
 
 
@@ -10,7 +10,9 @@
 @media (max-width: 768px) {}
 
 @media (max-width: 576px) {
-  //   #search {
-  //     padding: 0px;
-  //   }
+
+  #search {
+    padding: 20px;
+  }
+
 }
