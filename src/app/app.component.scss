@@ -3,6 +3,9 @@
   padding: 40px 80px;
 }
 
+button {
+  width: 100%;
+}
 
 /* Media Queries */
 @media (max-width: 992px) {}
@@ -10,9 +13,7 @@
 @media (max-width: 768px) {}
 
 @media (max-width: 576px) {
-
   #search {
     padding: 20px;
   }
-
 }
